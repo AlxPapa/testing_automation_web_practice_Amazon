@@ -12,18 +12,18 @@ This repository contains the Automation Testing Framework for web app automation
 
 Step 1: Environment Setup
 
-  1.1 Install Python -minumun verion is 3.9
+1.1 Install Python -minumun verion is 3.9
     Download and install the latest Python version from the official website.
     
     https://www.python.org/downloads/
   
-  1.2 Install IDE
+1.2 Install IDE
     Choose an IDE like PyCharm or Visual Studio Code.
     py-charm:
     
     https://www.jetbrains.com/pycharm/download/?section=mac
     
-  1.3 Install Selenium WebDriver
+1.3 Install Selenium WebDriver
   Run the following command on terminal within the project directory:
 
     pip install selenium
