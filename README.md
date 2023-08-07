@@ -61,6 +61,7 @@ Step 2: Creating the Test Framework
             self.driver = webdriver.Chrome()
         def teardown_method(self):
             self.driver.quit()
+            
 2.2 Implement Page Object Model (POM)
     Create classes for web pages and their elements.
 
@@ -98,13 +99,13 @@ Write test cases using Python's unittest or pytest framework.
 Step 4: CI/CD Integration
 
 4.1 Choose a CI/CD Platform
-Platforms like Jenkins or GitLab CI work well.
+    Platforms like Jenkins or GitLab CI work well.
 
 4.2 Create a Pipeline
-Write a script that will install dependencies, run tests, and generate reports.
+    Write a script that will install dependencies, run tests, and generate reports.
 
 4.3 Integrate with Source Control
-Connect your CI/CD platform with your version control (like Git).
+    Connect your CI/CD platform with your version control (like Git).
 
 ## Java-Based Framework
 
