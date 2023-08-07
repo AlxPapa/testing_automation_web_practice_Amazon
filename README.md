@@ -43,7 +43,7 @@ Step 1: Environment Setup
   
     https://learn.microsoft.com/en-us/microsoft-edge/webdriver-chromium/?tabs=c-sharp#download-microsoft-edge-webdriver
 
-  1.4.4 internetExplorerDriver
+  1.4.4 InternetExplorerDriver
   
       https://www.microsoft.com/en-us/download/details.aspx?id=44069#:~:text=To%20install%20the%20IE%20WebDriver,program%20from%20its%20current%20location.
     
