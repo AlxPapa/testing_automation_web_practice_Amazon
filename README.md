@@ -12,19 +12,19 @@ This repository contains the Automation Testing Framework for web app automation
 
 Step 1: Environment Setup
 
-1.1 Install Python
-Download and install the latest Python version from the official website.
+  1.1 Install Python
+    Download and install the latest Python version from the official website.
 
-1.2 Install IDE
-Choose an IDE like PyCharm or Visual Studio Code.
+  1.2 Install IDE
+    Choose an IDE like PyCharm or Visual Studio Code.
 
-1.3 Install Selenium WebDriver
-Run the following command on terminal within the project directory:
+  1.3 Install Selenium WebDriver
+  Run the following command on terminal within the project directory:
 
-pip install selenium
+    pip install selenium
 
-1.4 WebDriver Setup
-Download the WebDriver for the browsers you want to test (e.g., ChromeDriver for Chrome).
+  1.4 WebDriver Setup
+    Download the WebDriver for the browsers you want to test (e.g., ChromeDriver for Chrome).
 
 ### Creating the Test Framework
 ...
