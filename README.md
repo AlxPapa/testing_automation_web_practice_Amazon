@@ -30,6 +30,7 @@ Step 1: Environment Setup
 
 1.4 WebDriver Setup
     Download the WebDriver for the browsers you want to test (e.g., ChromeDriver for Chrome).
+    Following the links below for each browser of your choice 
     
   1.4.1 ChromeDriver:
     
