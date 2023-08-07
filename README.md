@@ -19,11 +19,10 @@ Download and install the latest Python version from the official website.
 Choose an IDE like PyCharm or Visual Studio Code.
 
 1.3 Install Selenium WebDriver
-Run the following command:
+Run the following command on terminal within the project directory:
 
-bash
-Copy code
 pip install selenium
+
 1.4 WebDriver Setup
 Download the WebDriver for the browsers you want to test (e.g., ChromeDriver for Chrome).
 
