@@ -17,18 +17,18 @@ Step 1: Environment Setup
     
     https://www.python.org/downloads/
   
-1.2 Install IDE
+1.2 Install IDE</br>
     Choose an IDE like PyCharm or Visual Studio Code.
     Py-Charm:
     
     https://www.jetbrains.com/pycharm/download/?section=mac
     
-1.3 Install Selenium WebDriver
+1.3 Install Selenium WebDriver</br>
     Run the following command on terminal within the project directory:
 
     pip install selenium
 
-1.4 WebDriver Setup
+1.4 WebDriver Setup</br>
     Download the WebDriver for the browsers you want to test (e.g., ChromeDriver for Chrome).</br>
     <i>Following the links below for each browser of your choice</i></br>
     
@@ -52,7 +52,7 @@ Step 1: Environment Setup
 
 Step 2: Creating the Test Framework
 
-2.1 Create Base Classes
+2.1 Create Base Classes</br>
     Create a base class to handle common functionalities such as setting up WebDriver.
 
 
@@ -62,7 +62,7 @@ Step 2: Creating the Test Framework
         def teardown_method(self):
             self.driver.quit()
             
-2.2 Implement Page Object Model (POM)
+2.2 Implement Page Object Model (POM)</br>
     Create classes for web pages and their elements.
 
 
@@ -77,7 +77,7 @@ Step 2: Creating the Test Framework
         self.password_field.send_keys(password)
         self.password_field.submit()
 
-2.3 Write Test Cases
+2.3 Write Test Cases</br>
 Write test cases using Python's unittest or pytest framework.
     
     class TestLogin:
@@ -98,13 +98,13 @@ Write test cases using Python's unittest or pytest framework.
 
 Step 4: CI/CD Integration
 
-4.1 Choose a CI/CD Platform
+4.1 Choose a CI/CD Platform</br>
     Platforms like Jenkins or GitLab CI work well.
 
-4.2 Create a Pipeline
+4.2 Create a Pipeline</br>
     Write a script that will install dependencies, run tests, and generate reports.
 
-4.3 Integrate with Source Control
+4.3 Integrate with Source Control</br>
     Connect your CI/CD platform with your version control (like Git).
 
 ## Java-Based Framework
