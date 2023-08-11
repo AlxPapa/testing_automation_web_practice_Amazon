@@ -6,7 +6,22 @@ Ideally this will be developed and expanded from set up to reporting part of the
 # Automation Testing Framework
 This repository contains the Automation Testing Framework for web app automation, including both Python-based and Java-based setups.
 
-## Python-Based Framework
+## Python-Based Framework</br>
+Project Directory Structure
+
+    automation-testing-framework-python/
+    │
+    ├── base_classes/
+    │   └── base_class.py
+    │
+    ├── page_objects/
+    │   └── login_page.py
+    │
+    ├── test_cases/
+    │   └── test_login.py
+    │
+    ├── requirements.txt
+    └── README.md
 
 ### Environment Setup
 
