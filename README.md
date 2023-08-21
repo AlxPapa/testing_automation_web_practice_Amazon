@@ -38,28 +38,32 @@ Step 1: Environment Setup
     
     https://www.jetbrains.com/pycharm/download/?section=mac
     
-1.3 Install Selenium WebDriver</br>
+1.3 Run the below command - project required packages installati
+
+    pip install -r requirements.txt
+    
+1.4 Install Selenium WebDriver</br>
     Run the following command on terminal within the project directory:
 
     pip install selenium
 
-1.4 WebDriver Setup</br>
+1.5 WebDriver Setup</br>
     Download the WebDriver for the browsers you want to test (e.g., ChromeDriver for Chrome).</br>
     <i>Following the links below for each browser of your choice</i></br>
     
-  1.4.1 ChromeDriver:
+  1.5.1 ChromeDriver:
     
     https://chromedriver.chromium.org/downloads
     
-  1.4.2 FirefoxDriver
+  1.5.2 FirefoxDriver
   
       https://github.com/mozilla/geckodriver/releases
     
-  1.4.3 EdgeDriver
+  1.5.3 EdgeDriver
   
     https://learn.microsoft.com/en-us/microsoft-edge/webdriver-chromium/?tabs=c-sharp#download-microsoft-edge-webdriver
 
-  1.4.4 InternetExplorerDriver
+  1.5.4 InternetExplorerDriver
   
       https://www.microsoft.com/en-us/download/details.aspx?id=44069#:~:text=To%20install%20the%20IE%20WebDriver,program%20from%20its%20current%20location.
     
