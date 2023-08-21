@@ -38,7 +38,7 @@ Step 1: Environment Setup
     
     https://www.jetbrains.com/pycharm/download/?section=mac
     
-1.3 Run the below command - project required packages installati
+1.3 Run the below command - project required packages installation
 
     pip install -r requirements.txt
     
